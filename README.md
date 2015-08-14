@@ -22,7 +22,7 @@
         
         ```
    （2） 然后就可以开始，结束，暂停，恢复 timer 了
-   ```java
+
                 timer.start();
                 
                 timer.pause();
@@ -30,7 +30,7 @@
                 timer.cancel();
                 
                 timer.resume();
-                ```
+              
                 
                 
         
