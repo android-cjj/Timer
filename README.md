@@ -5,7 +5,7 @@
 使用说明
 ------------------------------------------------------------------------------------
 
-...java
+```java
  DownTimer timer = new DownTimer();//实例化
         timer.setTotalTime(60*1000);//设置毫秒数
         timer.setIntervalTime(1000);//设置间隔数
