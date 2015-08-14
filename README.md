@@ -4,7 +4,7 @@
 
 使用说明
 ------------------------------------------------------------------------------------
-
+(1) 首先实例化DownTimer ,设置总的倒计时数字和多少秒后回调。
 ```java
  DownTimer timer = new DownTimer();//实例化
         timer.setTotalTime(60*1000);//设置毫秒数
@@ -16,9 +16,23 @@
             }
             @Override
             public void onInterval(long remainTime) {
-                tv_scend.setText("还剩" + remainTime / 1000+"秒就完成了");//剩余多少秒
+                tv_scend.setText("还剩" + remainTime / 1000+"秒就完成了");//剩余多少毫秒
             }
         });
+        
+        ```
+   （2） 然后就可以开始，结束，暂停，恢复 timer 了
+   ```java
+                timer.start();
+                
+                timer.pause();
+                
+                timer.cancel();
+                
+                timer.resume();
+                ```
+                
+                
         
         
 
