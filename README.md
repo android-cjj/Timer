@@ -19,9 +19,9 @@
                 tv_scend.setText("还剩" + remainTime / 1000+"秒就完成了");//剩余多少毫秒
             }
         });
+  ```      
         
-        
-   （2） 然后就可以开始，结束，暂停，恢复 timer 了
+ （2） 然后就可以开始，结束，暂停，恢复 timer 了
 
                 timer.start();
                 
